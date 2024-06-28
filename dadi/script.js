@@ -10,6 +10,14 @@ lancia.addEventListener("click", function () {
         messaggio += "Hai vinto!";
     }
 
+    else if (dadoGiocatore < dadoComputer) {
+        messaggio += "Il computer ha vinto!";
+    }
 
+    else {
+        messaggio += "È un pareggio!";
+    }
+
+    document.getElementById("result").innerText = messaggio;
 
 })
