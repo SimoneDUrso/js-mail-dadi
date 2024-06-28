@@ -20,7 +20,13 @@ btn_verifica.addEventListener("click", function () {
         document.getElementById("message").innerHTML = "Accesso consentito. Benvenuto!";
     }
 
+    else {
+        document.getElementById("message").innerHTML = "Accesso negato. L'email non è autorizzata.";
+    }
 
 })
+
+
+
 
 
