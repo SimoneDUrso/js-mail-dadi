@@ -27,6 +27,11 @@ btn_verifica.addEventListener("click", function () {
 })
 
 
+let btnDelete = document.getElementById("delete")
+btnDelete.addEventListener("click", function () {
 
+    document.getElementById("message").innerHTML = "";
+    document.getElementById("email").value = "";
+})
 
 
