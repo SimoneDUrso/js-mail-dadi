@@ -8,4 +8,14 @@ btn_verifica.addEventListener("click", function () {
     let emailInput = document.getElementById("email").value;
     let autorizzato = false;
 
+    for (let i = 0; i < emailAutorizzate.length; i++) {
+
+        if (emailAutorizzate[i] === emailInput) {
+            autorizzato = true;
+        }
+    }
+
+
 })
+
+
