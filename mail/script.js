@@ -15,6 +15,11 @@ btn_verifica.addEventListener("click", function () {
         }
     }
 
+    // Mostra il messaggio appropriato
+    if (autorizzato === true) {
+        document.getElementById("message").innerHTML = "Accesso consentito. Benvenuto!";
+    }
+
 
 })
 
